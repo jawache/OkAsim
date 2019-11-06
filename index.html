@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/speech-commands"></script>
+
+    <style>
+        body {
+            background-color: coral;
+        }
+
+        img.asim {
+            position: fixed;
+            bottom: 50;
+            left: 50px;
+        }
+
+        img.bubble {
+            position: fixed;
+            bottom: 250px;
+            left: 250px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img class="asim" src="./asim.png" />
+    <img id="bubble" class="bubble" src="./bubble.png" />
+
+    <script src="index.js"></script>
+</body>
+
+</html>
